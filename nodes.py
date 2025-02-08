@@ -203,7 +203,7 @@ class TeaCacheHunyuanVideoSampler:
             ".17": 0.17,
             ".18": 0.18,
             ".19": 0.19,
-            ".2": 0.2,
+            ".2": 0.2
         }
         actual_thresh = thresh_map[speedup]
         
