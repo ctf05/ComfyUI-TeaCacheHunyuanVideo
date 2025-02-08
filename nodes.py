@@ -51,7 +51,7 @@ class TeaCacheHunyuanVideoSampler:
                 "sampler": ("SAMPLER",),
                 "sigmas": ("SIGMAS",),
                 "latent_image": ("LATENT",),
-                "speedup": (["Original (1x)", "Fast (1.6x)", "Faster (2.1x)"], {
+                "speedup": ([".1",".11",".12",".13",".14",".15",".16",".17",".18",".19",".2"], {
                     "default": "Fast (1.6x)",
                     "tooltip": "Control TeaCache speed/quality trade-off:\nOriginal: Base quality\nFast: 1.6x speedup\nFaster: 2.1x speedup"
                 }),
@@ -193,9 +193,17 @@ class TeaCacheHunyuanVideoSampler:
         
         # Convert options to specific thresholds
         thresh_map = {
-            "Original (1x)": 0.0,
-            "Fast (1.6x)": 0.1,
-            "Faster (2.1x)": 0.15
+            ".1": 0.1,
+            ".11": 0.11,
+            ".12": 0.12,
+            ".13": 0.13,
+            ".14": 0.14,
+            ".15": 0.15,
+            ".16": 0.16,
+            ".17": 0.17,
+            ".18": 0.18,
+            ".19": 0.19,
+            ".2": 0.2,
         }
         actual_thresh = thresh_map[speedup]
         
