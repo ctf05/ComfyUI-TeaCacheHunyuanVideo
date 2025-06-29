@@ -51,7 +51,7 @@ class TeaCacheHunyuanVideoSampler:
                 "sampler": ("SAMPLER",),
                 "sigmas": ("SIGMAS",),
                 "latent_image": ("LATENT",),
-                "speedup": ([".1",".11",".12",".13",".14",".15",".16",".17",".18",".19",".2"], {
+                "speedup": ([".1",".11",".12",".13",".14",".15",".16",".17",".18",".19",".2",".21",".22",".23",".24",".25",".26",".27",".28",".29",".3",".31",".32",".33",".34"], {
                     "default": "Fast (1.6x)",
                     "tooltip": "Control TeaCache speed/quality trade-off:\nOriginal: Base quality\nFast: 1.6x speedup\nFaster: 2.1x speedup"
                 }),
